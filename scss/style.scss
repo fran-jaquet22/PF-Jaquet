@@ -17,7 +17,7 @@
 /* estilos generales */
 
 body{
-    background-color: #555355;
+    background-color: $color-principal;
 }
 
 .logo-home{
@@ -25,20 +25,20 @@ body{
 }
 
 .color-menu:hover{
-    border-bottom: 2px solid #555355;
+    border-bottom: 2px solid $color-principal;
 }
 
 header{
-    background-color:rgb(247, 190, 27);
+    background-color: $color-secundario;
     
 }
 
 main{
-    background-color:rgb(247, 190, 27);
+    background-color: $color-secundario;
     margin-top: 1rem;
 }
 
 footer{
-    background-color:  rgb(247, 190, 27);
+    background-color: $color-secundario;
     margin-top: 1rem;
 }
