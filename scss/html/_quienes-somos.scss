@@ -1,0 +1,15 @@
+// import
+@import "../componentes/mixin";
+@import "../componentes/extend";
+
+/* estilos de sobre nosotros */
+
+.main-principal3{
+    @include main;
+    .subtitulo3{
+        @extend %subtitulo;
+    }
+}
+
+
+

@@ -1,0 +1,15 @@
+//import 
+@import "../componentes/mixin";
+
+/* estilos de productos */
+
+.main-principal2{
+    @include main;
+    .subtitulo2{
+        @extend %subtitulo; 
+    }
+    .img-productos{
+        width: 90%;
+        padding-top: 1rem;
+    }    
+}

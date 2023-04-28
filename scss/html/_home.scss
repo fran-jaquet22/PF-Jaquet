@@ -1,0 +1,35 @@
+//variables
+@import "../componentes/vars";
+@import "../componentes/mixin";
+@import "../componentes/extend";
+
+/* estilos del home */ 
+
+.main-principal{
+    @include main;
+    .subtitulo{
+        @extend %subtitulo;
+        padding-left: 2rem;
+    }
+    nav{
+        .lista-prod{
+            list-style: none;
+            font-size: 1.3rem;
+        }        
+    }
+}
+
+.footer{
+    padding: 2rem 2rem 2rem;
+    h3{
+        text-align: center;
+    }
+    .footer-links{
+        text-align: center;
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 1.2rem;
+        }
+    }
+}

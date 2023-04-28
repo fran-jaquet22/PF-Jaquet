@@ -1,0 +1,96 @@
+/* reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.main-principal .subtitulo, .main-principal2 .subtitulo2, .main-principal3 .subtitulo3, .main-principal4 .subtitulo4, .main-principal5 .subtitulo5 {
+  text-transform: uppercase; }
+
+/* estilos del home */
+.main-principal {
+  text-align: center;
+  padding: 2rem 2rem 2rem 2rem; }
+  .main-principal .subtitulo {
+    padding-left: 2rem; }
+  .main-principal nav .lista-prod {
+    list-style: none;
+    font-size: 1.3rem; }
+
+.footer {
+  padding: 2rem 2rem 2rem; }
+  .footer h3 {
+    text-align: center; }
+  .footer .footer-links {
+    text-align: center; }
+    .footer .footer-links a {
+      text-decoration: none;
+      color: black;
+      font-size: 1.2rem; }
+
+/* estilos de productos */
+.main-principal2 {
+  text-align: center;
+  padding: 2rem 2rem 2rem 2rem; }
+  .main-principal2 .img-productos {
+    width: 90%;
+    padding-top: 1rem; }
+
+.main-principal .subtitulo, .main-principal2 .subtitulo2, .main-principal3 .subtitulo3, .main-principal4 .subtitulo4, .main-principal5 .subtitulo5 {
+  text-transform: uppercase; }
+
+/* estilos de sobre nosotros */
+.main-principal3 {
+  text-align: center;
+  padding: 2rem 2rem 2rem 2rem; }
+
+.main-principal .subtitulo, .main-principal2 .subtitulo2, .main-principal3 .subtitulo3, .main-principal4 .subtitulo4, .main-principal5 .subtitulo5 {
+  text-transform: uppercase; }
+
+/* estilos de contacto */
+.main-principal4 {
+  text-align: center;
+  padding: 2rem 2rem 2rem 2rem; }
+  .main-principal4 .subtitulo4 {
+    padding-bottom: 1rem; }
+  .main-principal4 form .fieldset-contacto {
+    font-size: 1.3rem; }
+    .main-principal4 form .fieldset-contacto legend {
+      text-transform: uppercase; }
+    .main-principal4 form .fieldset-contacto .botones {
+      padding-top: 1rem; }
+
+.main-principal .subtitulo, .main-principal2 .subtitulo2, .main-principal3 .subtitulo3, .main-principal4 .subtitulo4, .main-principal5 .subtitulo5 {
+  text-transform: uppercase; }
+
+/* estilos de trabaja con nosotros */
+.main-principal5 {
+  text-align: center;
+  padding: 2rem 2rem 2rem 2rem; }
+  .main-principal5 .subtitulo5 {
+    padding-bottom: 1rem; }
+  .main-principal5 .form-trabajo {
+    font-size: 1.3rem; }
+    .main-principal5 .form-trabajo fieldset legend {
+      text-transform: uppercase; }
+
+/* estilos generales */
+body {
+  background-color: #555355; }
+
+.logo-home {
+  width: 60%; }
+
+.color-menu:hover {
+  border-bottom: 2px solid #555355; }
+
+header {
+  background-color: #f7be1b; }
+
+main {
+  background-color: #f7be1b;
+  margin-top: 1rem; }
+
+footer {
+  background-color: #f7be1b;
+  margin-top: 1rem; }

@@ -1,0 +1,44 @@
+/* reset */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+//import
+@import "componentes/vars";
+@import "html/home";
+@import "html/productos";
+@import "html/quienes-somos";
+@import "html/contacto";
+@import "html/trabajo";
+
+/* estilos generales */
+
+body{
+    background-color: #555355;
+}
+
+.logo-home{
+    width: 60%;
+}
+
+.color-menu:hover{
+    border-bottom: 2px solid #555355;
+}
+
+header{
+    background-color:rgb(247, 190, 27);
+    
+}
+
+main{
+    background-color:rgb(247, 190, 27);
+    margin-top: 1rem;
+}
+
+footer{
+    background-color:  rgb(247, 190, 27);
+    margin-top: 1rem;
+}

@@ -1,0 +1,10 @@
+//mixin sin parametros 
+
+@mixin main{
+    text-align: center;
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+@mixin subtitulo{
+    text-transform: uppercase; 
+}
