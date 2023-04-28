@@ -10,8 +10,6 @@
         @extend %subtitulo;
     }
     section{
-        display: grid;
-        grid-template-columns: repeat(2, 0.5fr);
         .img-sn{
             .img-sn1{
                 height: 30vh;

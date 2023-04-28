@@ -58,15 +58,12 @@
 .main-principal3 {
   text-align: center;
   padding: 2rem 2rem 2rem 2rem; }
-  .main-principal3 section {
-    display: grid;
-    grid-template-columns: repeat(2, 0.5fr); }
-    .main-principal3 section .img-sn .img-sn1 {
-      height: 30vh;
-      width: 30vh;
-      border: 2px solid black; }
-    .main-principal3 section .texto-nosotros {
-      margin-top: 2rem; }
+  .main-principal3 section .img-sn .img-sn1 {
+    height: 30vh;
+    width: 30vh;
+    border: 2px solid black; }
+  .main-principal3 section .texto-nosotros {
+    margin-top: 2rem; }
 
 .main-principal .subtitulo, .main-principal2 .subtitulo2, .main-principal3 .subtitulo3, .main-principal4 .subtitulo4, .main-principal5 .subtitulo5 {
   text-transform: uppercase; }
