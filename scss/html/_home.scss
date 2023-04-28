@@ -11,12 +11,46 @@
         @extend %subtitulo;
         padding-left: 2rem;
     }
-    nav{
-        .lista-prod{
-            list-style: none;
-            font-size: 1.3rem;
-        }        
+    section{        
+        nav{            
+            .lista-prod{
+                li{
+                    text-transform: uppercase;
+                    text-decoration: underline;
+                    
+                }
+                p{
+                    margin-top: 0.5rem;
+                }
+                display: grid;
+                grid-template-columns:repeat(1, 1fr) ;             
+                list-style: none;
+                font-size: 1.3rem;
+                .card-uno{
+                    @extend %card;
+                }
+                .card-dos{
+                    @extend %card;
+                }
+                .card-tres{
+                    @extend %card;
+                }
+                .card-cuatro{
+                    @extend %card;
+                }
+                .card-cinco{
+                    @extend %card;
+                }
+                .card-seis{
+                    @extend %card;
+                }
+                .card-siete{
+                    @extend %card;
+                }
+            }        
+        }
     }
+    
 }
 
 .footer{

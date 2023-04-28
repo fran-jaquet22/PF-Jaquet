@@ -3,3 +3,8 @@
 %subtitulo{
     text-transform: uppercase;
 }
+
+%card{
+    border: 2px solid $color-principal;
+    margin: 0.5rem 1rem 0.5rem 1rem;
+}

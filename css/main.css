@@ -7,15 +7,26 @@
 .main-principal .subtitulo, .main-principal2 .subtitulo2, .main-principal3 .subtitulo3, .main-principal4 .subtitulo4, .main-principal5 .subtitulo5 {
   text-transform: uppercase; }
 
+.main-principal section nav .lista-prod .card-uno, .main-principal section nav .lista-prod .card-dos, .main-principal section nav .lista-prod .card-tres, .main-principal section nav .lista-prod .card-cuatro, .main-principal section nav .lista-prod .card-cinco, .main-principal section nav .lista-prod .card-seis, .main-principal section nav .lista-prod .card-siete {
+  border: 2px solid #555355;
+  margin: 0.5rem 1rem 0.5rem 1rem; }
+
 /* estilos del home */
 .main-principal {
   text-align: center;
   padding: 2rem 2rem 2rem 2rem; }
   .main-principal .subtitulo {
     padding-left: 2rem; }
-  .main-principal nav .lista-prod {
+  .main-principal section nav .lista-prod {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
     list-style: none;
     font-size: 1.3rem; }
+    .main-principal section nav .lista-prod li {
+      text-transform: uppercase;
+      text-decoration: underline; }
+    .main-principal section nav .lista-prod p {
+      margin-top: 0.5rem; }
 
 .footer {
   padding: 2rem 2rem 2rem; }
@@ -39,13 +50,30 @@
 .main-principal .subtitulo, .main-principal2 .subtitulo2, .main-principal3 .subtitulo3, .main-principal4 .subtitulo4, .main-principal5 .subtitulo5 {
   text-transform: uppercase; }
 
+.main-principal section nav .lista-prod .card-uno, .main-principal section nav .lista-prod .card-dos, .main-principal section nav .lista-prod .card-tres, .main-principal section nav .lista-prod .card-cuatro, .main-principal section nav .lista-prod .card-cinco, .main-principal section nav .lista-prod .card-seis, .main-principal section nav .lista-prod .card-siete {
+  border: 2px solid #555355;
+  margin: 0.5rem 1rem 0.5rem 1rem; }
+
 /* estilos de sobre nosotros */
 .main-principal3 {
   text-align: center;
   padding: 2rem 2rem 2rem 2rem; }
+  .main-principal3 section {
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr); }
+    .main-principal3 section .img-sn .img-sn1 {
+      height: 30vh;
+      width: 30vh;
+      border: 2px solid black; }
+    .main-principal3 section .texto-nosotros {
+      margin-top: 2rem; }
 
 .main-principal .subtitulo, .main-principal2 .subtitulo2, .main-principal3 .subtitulo3, .main-principal4 .subtitulo4, .main-principal5 .subtitulo5 {
   text-transform: uppercase; }
+
+.main-principal section nav .lista-prod .card-uno, .main-principal section nav .lista-prod .card-dos, .main-principal section nav .lista-prod .card-tres, .main-principal section nav .lista-prod .card-cuatro, .main-principal section nav .lista-prod .card-cinco, .main-principal section nav .lista-prod .card-seis, .main-principal section nav .lista-prod .card-siete {
+  border: 2px solid #555355;
+  margin: 0.5rem 1rem 0.5rem 1rem; }
 
 /* estilos de contacto */
 .main-principal4 {
@@ -62,6 +90,10 @@
 
 .main-principal .subtitulo, .main-principal2 .subtitulo2, .main-principal3 .subtitulo3, .main-principal4 .subtitulo4, .main-principal5 .subtitulo5 {
   text-transform: uppercase; }
+
+.main-principal section nav .lista-prod .card-uno, .main-principal section nav .lista-prod .card-dos, .main-principal section nav .lista-prod .card-tres, .main-principal section nav .lista-prod .card-cuatro, .main-principal section nav .lista-prod .card-cinco, .main-principal section nav .lista-prod .card-seis, .main-principal section nav .lista-prod .card-siete {
+  border: 2px solid #555355;
+  margin: 0.5rem 1rem 0.5rem 1rem; }
 
 /* estilos de trabaja con nosotros */
 .main-principal5 {
