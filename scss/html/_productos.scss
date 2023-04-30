@@ -8,9 +8,24 @@
     .subtitulo2{
         @extend %subtitulo; 
     }
-    .img-productos{
-        width: 90%;
-        margin-top: 1rem;
-        border: 0.5rem solid black;
-    }    
+    div{
+        .img-productos{
+            width: 90%;
+            margin-top: 1rem;
+            border: 0.3rem solid black;
+        }  
+    }     
+}
+
+@media screen and (min-width:1024px){
+    .main-principal2{
+        div{
+            .img-productos{
+                width: 70%;
+                margin-top: 1rem;
+                border: 0.5rem solid black;
+            }
+        }
+            
+    }
 }

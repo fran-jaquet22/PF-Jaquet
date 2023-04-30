@@ -33,7 +33,7 @@
 
 .footer {
   padding: 2rem 2rem 2rem; }
-  .footer h3 {
+  .footer h2 {
     text-align: center; }
   .footer .footer-links {
     text-align: center; }
@@ -54,10 +54,16 @@
 .main-principal2 {
   text-align: center;
   padding: 2rem 2rem 2rem 2rem; }
-  .main-principal2 .img-productos {
+  .main-principal2 div .img-productos {
     width: 90%;
     margin-top: 1rem;
-    border: 0.5rem solid black; }
+    border: 0.3rem solid black; }
+
+@media screen and (min-width: 1024px) {
+  .main-principal2 div .img-productos {
+    width: 70%;
+    margin-top: 1rem;
+    border: 0.5rem solid black; } }
 
 .main-principal .subtitulo, .main-principal2 .subtitulo2, .main-principal3 .subtitulo3, .main-principal4 .subtitulo4, .main-principal5 .subtitulo5 {
   text-transform: uppercase; }
@@ -106,8 +112,14 @@
     font-size: 1.3rem; }
     .main-principal4 form .fieldset-contacto legend {
       text-transform: uppercase; }
+    .main-principal4 form .fieldset-contacto div label {
+      margin-bottom: 1rem; }
+    .main-principal4 form .fieldset-contacto div label {
+      margin-bottom: 1rem; }
+    .main-principal4 form .fieldset-contacto div label {
+      margin-bottom: 1rem; }
     .main-principal4 form .fieldset-contacto .botones {
-      padding-top: 1rem; }
+      margin-top: 1rem; }
 
 .main-principal .subtitulo, .main-principal2 .subtitulo2, .main-principal3 .subtitulo3, .main-principal4 .subtitulo4, .main-principal5 .subtitulo5 {
   text-transform: uppercase; }
@@ -126,6 +138,12 @@
     font-size: 1.3rem; }
     .main-principal5 .form-trabajo fieldset legend {
       text-transform: uppercase; }
+    .main-principal5 .form-trabajo fieldset div label {
+      margin-bottom: 1rem; }
+    .main-principal5 .form-trabajo fieldset div label {
+      margin-bottom: 1rem; }
+    .main-principal5 .form-trabajo fieldset .botones {
+      margin-top: 1rem; }
 
 /* estilos generales */
 body {
