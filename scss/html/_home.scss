@@ -10,21 +10,22 @@
     .subtitulo{
         @extend %subtitulo;
         padding-left: 2rem;
+        margin-bottom: 1rem;
     }
     section{        
         nav{            
             .lista-prod{
+                display: grid;
+                grid-template-columns:repeat(1, 1fr) ;             
+                list-style: none;
+                font-size: 1.3rem;
                 li{
                     text-transform: uppercase;
                     text-decoration: underline;   
                 }
                 p{
                     margin-top: 0.5rem;
-                }
-                display: grid;
-                grid-template-columns:repeat(1, 1fr) ;             
-                list-style: none;
-                font-size: 1.3rem;
+                }                
                 .card-uno{
                     @extend %card;
                 }
@@ -45,6 +46,7 @@
                 }
                 .card-siete{
                     @extend %card;
+                    display: block;
                 }
             }        
         }
@@ -63,6 +65,24 @@
             text-decoration: none;
             color: black;
             font-size: 1.2rem;
+        }
+    }
+}
+
+/* mq de desktop */
+
+@media screen and (min-width:1024px){
+    .main-principal{
+        section{
+            nav{
+                .lista-prod{
+                    grid-template-columns:repeat(3, 1fr);
+                    grid-template-rows:repeat(3, 1fr);
+                }
+                .card-siete{
+                    grid-column:2;
+                }
+            }
         }
     }
 }

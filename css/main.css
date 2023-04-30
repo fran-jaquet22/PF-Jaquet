@@ -8,7 +8,7 @@
   text-transform: uppercase; }
 
 .main-principal section nav .lista-prod .card-uno, .main-principal section nav .lista-prod .card-dos, .main-principal section nav .lista-prod .card-tres, .main-principal section nav .lista-prod .card-cuatro, .main-principal section nav .lista-prod .card-cinco, .main-principal section nav .lista-prod .card-seis, .main-principal section nav .lista-prod .card-siete {
-  border: 2px solid #555355;
+  border: 2px solid black;
   margin: 0.5rem 1rem 0.5rem 1rem; }
 
 /* estilos del home */
@@ -16,7 +16,8 @@
   text-align: center;
   padding: 2rem 2rem 2rem 2rem; }
   .main-principal .subtitulo {
-    padding-left: 2rem; }
+    padding-left: 2rem;
+    margin-bottom: 1rem; }
   .main-principal section nav .lista-prod {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -27,6 +28,8 @@
       text-decoration: underline; }
     .main-principal section nav .lista-prod p {
       margin-top: 0.5rem; }
+    .main-principal section nav .lista-prod .card-siete {
+      display: block; }
 
 .footer {
   padding: 2rem 2rem 2rem; }
@@ -38,6 +41,14 @@
       text-decoration: none;
       color: black;
       font-size: 1.2rem; }
+
+/* mq de desktop */
+@media screen and (min-width: 1024px) {
+  .main-principal section nav .lista-prod {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr); }
+  .main-principal section nav .card-siete {
+    grid-column: 2; } }
 
 /* estilos de productos */
 .main-principal2 {
@@ -52,7 +63,7 @@
   text-transform: uppercase; }
 
 .main-principal section nav .lista-prod .card-uno, .main-principal section nav .lista-prod .card-dos, .main-principal section nav .lista-prod .card-tres, .main-principal section nav .lista-prod .card-cuatro, .main-principal section nav .lista-prod .card-cinco, .main-principal section nav .lista-prod .card-seis, .main-principal section nav .lista-prod .card-siete {
-  border: 2px solid #555355;
+  border: 2px solid black;
   margin: 0.5rem 1rem 0.5rem 1rem; }
 
 /* estilos de sobre nosotros */
@@ -67,11 +78,22 @@
   .main-principal3 section .texto-nosotros {
     margin-top: 2rem; }
 
+@media screen and (min-width: 1024px) {
+  .main-principal3 section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+    .main-principal3 section .img-sn .img-sn1 {
+      height: 35vh;
+      width: 30vh;
+      border: 2px solid black; }
+    .main-principal3 section .texto-nosotros {
+      margin-top: 4rem; } }
+
 .main-principal .subtitulo, .main-principal2 .subtitulo2, .main-principal3 .subtitulo3, .main-principal4 .subtitulo4, .main-principal5 .subtitulo5 {
   text-transform: uppercase; }
 
 .main-principal section nav .lista-prod .card-uno, .main-principal section nav .lista-prod .card-dos, .main-principal section nav .lista-prod .card-tres, .main-principal section nav .lista-prod .card-cuatro, .main-principal section nav .lista-prod .card-cinco, .main-principal section nav .lista-prod .card-seis, .main-principal section nav .lista-prod .card-siete {
-  border: 2px solid #555355;
+  border: 2px solid black;
   margin: 0.5rem 1rem 0.5rem 1rem; }
 
 /* estilos de contacto */
@@ -91,7 +113,7 @@
   text-transform: uppercase; }
 
 .main-principal section nav .lista-prod .card-uno, .main-principal section nav .lista-prod .card-dos, .main-principal section nav .lista-prod .card-tres, .main-principal section nav .lista-prod .card-cuatro, .main-principal section nav .lista-prod .card-cinco, .main-principal section nav .lista-prod .card-seis, .main-principal section nav .lista-prod .card-siete {
-  border: 2px solid #555355;
+  border: 2px solid black;
   margin: 0.5rem 1rem 0.5rem 1rem; }
 
 /* estilos de trabaja con nosotros */
