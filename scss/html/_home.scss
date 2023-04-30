@@ -13,8 +13,8 @@
         margin-bottom: 1rem;
     }
     section{        
-        nav{            
-            .lista-prod{
+        nav{         
+            .lista-prod{  
                 display: grid;
                 grid-template-columns:repeat(1, 1fr) ;             
                 list-style: none;
@@ -46,7 +46,6 @@
                 }
                 .card-siete{
                     @extend %card;
-                    display: block;
                 }
             }        
         }
