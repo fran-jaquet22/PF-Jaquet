@@ -11,6 +11,10 @@
   border: 2px solid black;
   margin: 0.5rem 1rem 0.5rem 1rem; }
 
+.main-principal section nav .lista-prod :hover {
+  transform: scale(1.02);
+  transition: 0.5s; }
+
 /* estilos del home */
 .main-principal {
   text-align: center;
@@ -71,6 +75,10 @@
   border: 2px solid black;
   margin: 0.5rem 1rem 0.5rem 1rem; }
 
+.main-principal section nav .lista-prod :hover {
+  transform: scale(1.02);
+  transition: 0.5s; }
+
 /* estilos de sobre nosotros */
 .main-principal3 {
   text-align: center;
@@ -102,6 +110,10 @@
   border: 2px solid black;
   margin: 0.5rem 1rem 0.5rem 1rem; }
 
+.main-principal section nav .lista-prod :hover {
+  transform: scale(1.02);
+  transition: 0.5s; }
+
 /* estilos de contacto */
 .main-principal4 {
   text-align: center;
@@ -127,6 +139,10 @@
 .main-principal section nav .lista-prod .card-uno, .main-principal section nav .lista-prod .card-dos, .main-principal section nav .lista-prod .card-tres, .main-principal section nav .lista-prod .card-cuatro, .main-principal section nav .lista-prod .card-cinco, .main-principal section nav .lista-prod .card-seis, .main-principal section nav .lista-prod .card-siete {
   border: 2px solid black;
   margin: 0.5rem 1rem 0.5rem 1rem; }
+
+.main-principal section nav .lista-prod :hover {
+  transform: scale(1.02);
+  transition: 0.5s; }
 
 /* estilos de trabaja con nosotros */
 .main-principal5 {
