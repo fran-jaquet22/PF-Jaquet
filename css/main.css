@@ -42,7 +42,7 @@
       color: black;
       font-size: 1.2rem; }
 
-/* mq de desktop */
+/* mq de home para desktop */
 @media screen and (min-width: 1024px) {
   .main-principal section nav .lista-prod {
     grid-template-columns: repeat(3, 1fr);
@@ -59,6 +59,7 @@
     margin-top: 1rem;
     border: 0.3rem solid black; }
 
+/* mq de productos para desktop */
 @media screen and (min-width: 1024px) {
   .main-principal2 div .img-productos {
     width: 70%;
@@ -84,6 +85,7 @@
   .main-principal3 section .texto-nosotros {
     margin-top: 2rem; }
 
+/* mq de quienes somos para desktop */
 @media screen and (min-width: 1024px) {
   .main-principal3 section {
     display: grid;
