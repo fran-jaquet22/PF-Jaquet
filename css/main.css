@@ -126,9 +126,15 @@
       text-transform: uppercase; }
     .main-principal4 form .fieldset-contacto div label {
       margin-bottom: 1rem; }
-    .main-principal4 form .fieldset-contacto div label {
+    .main-principal4 form .fieldset-contacto div input {
       margin-bottom: 1rem; }
     .main-principal4 form .fieldset-contacto div label {
+      margin-bottom: 1rem; }
+    .main-principal4 form .fieldset-contacto div input {
+      margin-bottom: 1rem; }
+    .main-principal4 form .fieldset-contacto div label {
+      margin-bottom: 1rem; }
+    .main-principal4 form .fieldset-contacto div input {
       margin-bottom: 1rem; }
     .main-principal4 form .fieldset-contacto .botones {
       margin-top: 1rem; }
@@ -156,7 +162,11 @@
       text-transform: uppercase; }
     .main-principal5 .form-trabajo fieldset div label {
       margin-bottom: 1rem; }
+    .main-principal5 .form-trabajo fieldset div input {
+      margin-bottom: 1rem; }
     .main-principal5 .form-trabajo fieldset div label {
+      margin-bottom: 1rem; }
+    .main-principal5 .form-trabajo fieldset div input {
       margin-bottom: 1rem; }
     .main-principal5 .form-trabajo fieldset .botones {
       margin-top: 1rem; }
