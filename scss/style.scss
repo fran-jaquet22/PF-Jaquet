@@ -24,8 +24,14 @@ body{
     width: 60%;
 }
 
+.color-menu{
+    text-transform: uppercase;
+}
+
 .color-menu:hover{
-    border-bottom: 2px solid $color-principal;
+    background-color: $color-principal;
+    color: whitesmoke;
+    transition: .6s;
 }
 
 header{

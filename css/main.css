@@ -178,8 +178,13 @@ body {
 .logo-home {
   width: 60%; }
 
+.color-menu {
+  text-transform: uppercase; }
+
 .color-menu:hover {
-  border-bottom: 2px solid #555355; }
+  background-color: #555355;
+  color: whitesmoke;
+  transition: .6s; }
 
 header {
   background-color: #f7be1b; }
