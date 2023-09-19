@@ -6,13 +6,17 @@
 /* estilos del home */ 
 
 .main-principal{
+    background-image: url("../../img/AlphaLub.png") ;
     @include main;
     .subtitulo{
         @extend %subtitulo;
         padding-left: 2rem;
         margin-bottom: 1rem;
     }
-    section{        
+    .bg-space{
+        width: 100%;
+    }
+    /* section{        
         nav{         
             .lista-prod{  
                 @extend %transformacion;
@@ -50,7 +54,7 @@
                 }
             }        
         }
-    }
+    } */
     
 }
 

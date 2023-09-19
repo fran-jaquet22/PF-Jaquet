@@ -7,31 +7,55 @@
 .main-principal .subtitulo, .main-principal2 .subtitulo2, .main-principal3 .subtitulo3, .main-principal4 .subtitulo4, .main-principal5 .subtitulo5 {
   text-transform: uppercase; }
 
-.main-principal section nav .lista-prod .card-uno, .main-principal section nav .lista-prod .card-dos, .main-principal section nav .lista-prod .card-tres, .main-principal section nav .lista-prod .card-cuatro, .main-principal section nav .lista-prod .card-cinco, .main-principal section nav .lista-prod .card-seis, .main-principal section nav .lista-prod .card-siete {
-  border: 2px solid black;
-  margin: 0.5rem 1rem 0.5rem 1rem; }
-
-.main-principal section nav .lista-prod :hover {
-  transform: scale(1.02);
-  transition: 0.5s; }
-
 /* estilos del home */
 .main-principal {
+  background-image: url("../../img/AlphaLub.png");
   text-align: center;
-  padding: 2rem 2rem 2rem 2rem; }
+  padding: 2rem 2rem 2rem 2rem;
+  /* section{        
+        nav{         
+            .lista-prod{  
+                @extend %transformacion;
+                display: grid;
+                grid-template-columns:repeat(1, 1fr) ;             
+                list-style: none;
+                font-size: 1.3rem;
+                li{
+                    text-transform: uppercase;
+                    text-decoration: underline;   
+                }
+                p{
+                    margin-top: 0.5rem;
+                }                
+                .card-uno{
+                    @extend %card;
+                }
+                .card-dos{
+                    @extend %card;
+                }
+                .card-tres{
+                    @extend %card;
+                }
+                .card-cuatro{
+                    @extend %card;
+                }
+                .card-cinco{
+                    @extend %card;
+                }
+                .card-seis{
+                    @extend %card;
+                }
+                .card-siete{
+                    @extend %card;
+                }
+            }        
+        }
+    } */ }
   .main-principal .subtitulo {
     padding-left: 2rem;
     margin-bottom: 1rem; }
-  .main-principal section nav .lista-prod {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    list-style: none;
-    font-size: 1.3rem; }
-    .main-principal section nav .lista-prod li {
-      text-transform: uppercase;
-      text-decoration: underline; }
-    .main-principal section nav .lista-prod p {
-      margin-top: 0.5rem; }
+  .main-principal .bg-space {
+    width: 100%; }
 
 .footer {
   padding: 2rem 2rem 2rem; }
@@ -71,14 +95,6 @@
 .main-principal .subtitulo, .main-principal2 .subtitulo2, .main-principal3 .subtitulo3, .main-principal4 .subtitulo4, .main-principal5 .subtitulo5 {
   text-transform: uppercase; }
 
-.main-principal section nav .lista-prod .card-uno, .main-principal section nav .lista-prod .card-dos, .main-principal section nav .lista-prod .card-tres, .main-principal section nav .lista-prod .card-cuatro, .main-principal section nav .lista-prod .card-cinco, .main-principal section nav .lista-prod .card-seis, .main-principal section nav .lista-prod .card-siete {
-  border: 2px solid black;
-  margin: 0.5rem 1rem 0.5rem 1rem; }
-
-.main-principal section nav .lista-prod :hover {
-  transform: scale(1.02);
-  transition: 0.5s; }
-
 /* estilos de sobre nosotros */
 .main-principal3 {
   text-align: center;
@@ -105,14 +121,6 @@
 
 .main-principal .subtitulo, .main-principal2 .subtitulo2, .main-principal3 .subtitulo3, .main-principal4 .subtitulo4, .main-principal5 .subtitulo5 {
   text-transform: uppercase; }
-
-.main-principal section nav .lista-prod .card-uno, .main-principal section nav .lista-prod .card-dos, .main-principal section nav .lista-prod .card-tres, .main-principal section nav .lista-prod .card-cuatro, .main-principal section nav .lista-prod .card-cinco, .main-principal section nav .lista-prod .card-seis, .main-principal section nav .lista-prod .card-siete {
-  border: 2px solid black;
-  margin: 0.5rem 1rem 0.5rem 1rem; }
-
-.main-principal section nav .lista-prod :hover {
-  transform: scale(1.02);
-  transition: 0.5s; }
 
 /* estilos de contacto */
 .main-principal4 {
@@ -141,14 +149,6 @@
 
 .main-principal .subtitulo, .main-principal2 .subtitulo2, .main-principal3 .subtitulo3, .main-principal4 .subtitulo4, .main-principal5 .subtitulo5 {
   text-transform: uppercase; }
-
-.main-principal section nav .lista-prod .card-uno, .main-principal section nav .lista-prod .card-dos, .main-principal section nav .lista-prod .card-tres, .main-principal section nav .lista-prod .card-cuatro, .main-principal section nav .lista-prod .card-cinco, .main-principal section nav .lista-prod .card-seis, .main-principal section nav .lista-prod .card-siete {
-  border: 2px solid black;
-  margin: 0.5rem 1rem 0.5rem 1rem; }
-
-.main-principal section nav .lista-prod :hover {
-  transform: scale(1.02);
-  transition: 0.5s; }
 
 /* estilos de trabaja con nosotros */
 .main-principal5 {
