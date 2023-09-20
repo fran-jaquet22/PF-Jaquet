@@ -36,7 +36,9 @@ body{
 
 header{
     background-color: $color-secundario;
-    
+    .nav.link{
+        font-weight: 900;
+    }
 }
 
 main{
