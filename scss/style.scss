@@ -12,7 +12,6 @@
 @import "html/productos";
 @import "html/quienes-somos";
 @import "html/contacto";
-@import "html/trabajo";
 
 /* estilos generales */
 
@@ -36,9 +35,8 @@ body{
 
 header{
     background-color: $color-secundario;
-    .nav.link{
-        font-weight: 900;
-    }
+    font-weight: bold;
+    color: black;
 }
 
 main{

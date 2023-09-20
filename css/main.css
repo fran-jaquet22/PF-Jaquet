@@ -4,7 +4,7 @@
   margin: 0;
   box-sizing: border-box; }
 
-.main-principal .subtitulo, .main-principal2 .subtitulo2, .main-principal3 .subtitulo3, .main-principal4 .subtitulo4, .main-principal5 .subtitulo5 {
+.main-principal .subtitulo, .main-principal2 .subtitulo2, .main-principal3 .subtitulo3, .main-principal4 .subtitulo4 {
   text-transform: uppercase; }
 
 /* @import url(https://use.fontawesome.com/releases/v6.4.2/cass/all.css); */
@@ -95,20 +95,24 @@
     margin-top: 1rem;
     border: 0.5rem solid black; } }
 
-.main-principal .subtitulo, .main-principal2 .subtitulo2, .main-principal3 .subtitulo3, .main-principal4 .subtitulo4, .main-principal5 .subtitulo5 {
+.main-principal .subtitulo, .main-principal2 .subtitulo2, .main-principal3 .subtitulo3, .main-principal4 .subtitulo4 {
   text-transform: uppercase; }
 
 /* estilos de sobre nosotros */
 .main-principal3 {
   text-align: center;
   padding: 2rem 2rem 2rem 2rem; }
-  .main-principal3 section .img-sn .img-sn1 {
-    height: 35vh;
-    width: 30vh;
-    border: 2px solid black;
-    margin-top: 1rem; }
+  .main-principal3 section .img-sn {
+    padding-top: 3rem; }
+    .main-principal3 section .img-sn .img-sn1 {
+      width: 30vh;
+      height: 35vh;
+      border: 2px solid black; }
   .main-principal3 section .texto-nosotros {
-    margin-top: 2rem; }
+    margin-top: 2rem;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
+    font-size: large; }
 
 /* mq de quienes somos para desktop */
 @media screen and (min-width: 1024px) {
@@ -122,7 +126,7 @@
     .main-principal3 section .texto-nosotros {
       margin-top: 4rem; } }
 
-.main-principal .subtitulo, .main-principal2 .subtitulo2, .main-principal3 .subtitulo3, .main-principal4 .subtitulo4, .main-principal5 .subtitulo5 {
+.main-principal .subtitulo, .main-principal2 .subtitulo2, .main-principal3 .subtitulo3, .main-principal4 .subtitulo4 {
   text-transform: uppercase; }
 
 /* estilos de contacto */
@@ -150,30 +154,6 @@
     .main-principal4 form .fieldset-contacto .botones {
       margin-top: 1rem; }
 
-.main-principal .subtitulo, .main-principal2 .subtitulo2, .main-principal3 .subtitulo3, .main-principal4 .subtitulo4, .main-principal5 .subtitulo5 {
-  text-transform: uppercase; }
-
-/* estilos de trabaja con nosotros */
-.main-principal5 {
-  text-align: center;
-  padding: 2rem 2rem 2rem 2rem; }
-  .main-principal5 .subtitulo5 {
-    padding-bottom: 1rem; }
-  .main-principal5 .form-trabajo {
-    font-size: 1.3rem; }
-    .main-principal5 .form-trabajo fieldset legend {
-      text-transform: uppercase; }
-    .main-principal5 .form-trabajo fieldset div label {
-      margin-bottom: 1rem; }
-    .main-principal5 .form-trabajo fieldset div input {
-      margin-bottom: 1rem; }
-    .main-principal5 .form-trabajo fieldset div label {
-      margin-bottom: 1rem; }
-    .main-principal5 .form-trabajo fieldset div input {
-      margin-bottom: 1rem; }
-    .main-principal5 .form-trabajo fieldset .botones {
-      margin-top: 1rem; }
-
 /* estilos generales */
 body {
   background-color: #555355; }
@@ -190,7 +170,9 @@ body {
   transition: .6s; }
 
 header {
-  background-color: #f7be1b; }
+  background-color: #f7be1b;
+  font-weight: bold;
+  color: black; }
 
 main {
   background-color: #f7be1b;

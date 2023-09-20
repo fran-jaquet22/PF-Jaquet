@@ -11,15 +11,18 @@
     }
     section{
         .img-sn{
+            padding-top: 3rem;
             .img-sn1{
-                height: 35vh;
                 width: 30vh;
+                height: 35vh;
                 border: 2px solid black;
-                margin-top: 1rem;
             }
         }
         .texto-nosotros{
             margin-top: 2rem;
+            padding-right: 3rem;
+            padding-bottom: 3rem;
+            font-size: large;
         }
     }
     
