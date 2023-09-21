@@ -4,22 +4,13 @@
   margin: 0;
   box-sizing: border-box; }
 
-.main-principal .subtitulo, .main-principal2 .subtitulo2, .main-principal3 .subtitulo3, .main-principal4 .subtitulo4 {
+.main-principal2 .subtitulo2, .main-principal3 .subtitulo3, .main-principal4 .subtitulo4 {
   text-transform: uppercase; }
 
-/* @import url(https://use.fontawesome.com/releases/v6.4.2/cass/all.css); */
 /* estilos del home */
-.main-principal {
-  background-image: url("../../img/AlphaLub.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
-  padding: 2rem 2rem 2rem 2rem; }
-  .main-principal .subtitulo {
-    padding-left: 2rem;
-    margin-bottom: 1rem; }
-  .main-principal .espacio {
-    padding-top: 40rem; }
+.main-principal .img-alphalub {
+  width: 100%;
+  height: 100%; }
 
 .footer {
   padding: 2rem 2rem 2rem; }
@@ -56,7 +47,7 @@
     margin-top: 1rem;
     border: 0.5rem solid black; } }
 
-.main-principal .subtitulo, .main-principal2 .subtitulo2, .main-principal3 .subtitulo3, .main-principal4 .subtitulo4 {
+.main-principal2 .subtitulo2, .main-principal3 .subtitulo3, .main-principal4 .subtitulo4 {
   text-transform: uppercase; }
 
 /* estilos de sobre nosotros */
@@ -89,7 +80,7 @@
     .main-principal3 section .texto-nosotros {
       margin-top: 4rem; } }
 
-.main-principal .subtitulo, .main-principal2 .subtitulo2, .main-principal3 .subtitulo3, .main-principal4 .subtitulo4 {
+.main-principal2 .subtitulo2, .main-principal3 .subtitulo3, .main-principal4 .subtitulo4 {
   text-transform: uppercase; }
 
 /* estilos de contacto */

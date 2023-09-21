@@ -2,22 +2,13 @@
 @import "../componentes/vars";
 @import "../componentes/mixin";
 @import "../componentes/extend";
-/* @import url(https://use.fontawesome.com/releases/v6.4.2/cass/all.css); */
 
 /* estilos del home */ 
 
 .main-principal{
-    background-image: url("../../img/AlphaLub.png") ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    @include main;
-    .subtitulo{
-        @extend %subtitulo;
-        padding-left: 2rem;
-        margin-bottom: 1rem;
-    }
-    .espacio{
-        padding-top: 40rem;
+    .img-alphalub{
+        width: 100%;
+        height: 100%;
     }
 }
 
