@@ -14,46 +14,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  padding: 2rem 2rem 2rem 2rem;
-  /* section{        
-        nav{         
-            .lista-prod{  
-                @extend %transformacion;
-                display: grid;
-                grid-template-columns:repeat(1, 1fr) ;             
-                list-style: none;
-                font-size: 1.3rem;
-                li{
-                    text-transform: uppercase;
-                    text-decoration: underline;   
-                }
-                p{
-                    margin-top: 0.5rem;
-                }                
-                .card-uno{
-                    @extend %card;
-                }
-                .card-dos{
-                    @extend %card;
-                }
-                .card-tres{
-                    @extend %card;
-                }
-                .card-cuatro{
-                    @extend %card;
-                }
-                .card-cinco{
-                    @extend %card;
-                }
-                .card-seis{
-                    @extend %card;
-                }
-                .card-siete{
-                    @extend %card;
-                }
-            }        
-        }
-    } */ }
+  padding: 2rem 2rem 2rem 2rem; }
   .main-principal .subtitulo {
     padding-left: 2rem;
     margin-bottom: 1rem; }
@@ -103,16 +64,18 @@
   text-align: center;
   padding: 2rem 2rem 2rem 2rem; }
   .main-principal3 section .img-sn {
-    padding-top: 3rem; }
+    display: flex;
+    justify-content: center;
+    align-items: center; }
     .main-principal3 section .img-sn .img-sn1 {
       width: 30vh;
       height: 35vh;
       border: 2px solid black; }
   .main-principal3 section .texto-nosotros {
     margin-top: 2rem;
-    padding-right: 3rem;
+    padding-right: 2rem;
     padding-bottom: 3rem;
-    font-size: large; }
+    font-size: 1.5rem; }
 
 /* mq de quienes somos para desktop */
 @media screen and (min-width: 1024px) {
