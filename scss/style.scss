@@ -42,6 +42,29 @@ header{
 main{
     background-color: $color-secundario;
     margin-top: 1rem;
+    .btn{
+       font-size: 3rem; 
+       color: green;
+       background-color: whitesmoke;
+       position: fixed;
+       right: 3rem;
+       bottom: 3rem;
+       box-shadow: 0px 8px 15px rgba($color: #000000, $alpha: 0.8);
+       z-index: 99;
+    }
+    .color-btn{
+        color: green;
+    }
+    .color-btn:hover{
+        color: whitesmoke;
+    }
+    .btn:hover{
+        color: whitesmoke;
+        background-color: green;
+        box-shadow: 0px 15px 20px rgba($color: #000000, $alpha: 1.0);
+        transform: translateY(-7px);
+        transition: 0.5s;
+    }
 }
 
 footer{
