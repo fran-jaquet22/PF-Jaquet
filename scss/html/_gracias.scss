@@ -1,0 +1,39 @@
+@import "../componentes/vars";
+
+header{
+    nav{
+        div{
+            div{
+                .nav-link-gracias{
+                    text-decoration: none;
+                    color: $color-principal;
+                    margin-right: 4rem;
+                    margin-left: 5rem;
+                    padding: 0.5rem;
+                }
+            }
+        }
+    }
+}
+
+
+main {
+    .titulo-gracias{
+        display: flex;
+        justify-content: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .subtitulo-gracias{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+    }
+
+    .atencion{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 2rem;
+    }
+}

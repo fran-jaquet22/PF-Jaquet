@@ -112,6 +112,29 @@
         border-radius: 0.375rem;
         box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.8); }
 
+header nav div div .nav-link-gracias {
+  text-decoration: none;
+  color: #555355;
+  margin-right: 4rem;
+  margin-left: 5rem;
+  padding: 0.5rem; }
+
+main .titulo-gracias {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+
+main .subtitulo-gracias {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem; }
+
+main .atencion {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem; }
+
 /* estilos generales */
 body {
   background-color: #555355; }
