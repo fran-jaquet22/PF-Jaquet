@@ -9,24 +9,39 @@
     .subtitulo3{
         @extend %subtitulo;
     }
-    section{
-        .img-sn{
+    div{
+        .texto-nosotros{
             display: flex;
             justify-content: center;
-            align-items: center;
-            .img-sn1{
-                width: 30vh;
-                height: 35vh;
-                border: 2px solid black;
-            }
-        }
-        .texto-nosotros{
             margin-top: 2rem;
             padding-right: 2rem;
             padding-bottom: 3rem;
             font-size: 1.5rem;
         }
     }
+    .carrusel{
+        .carrusel-items{
+            display: flex;
+            align-items: center;
+            overflow-x: scroll;
+            overflow-x: hidden;
+            overflow-y:hidden;
+            background-color: $color-principal;
+            padding:20px;
+            gap: 1rem;
+            .carrusel-item{
+                img{
+                    object-fit:cover;
+                    box-shadow:5px 5px 0px 0px;
+                    color:grey;
+                }
+                .imagenes-carrusel{
+                    width:150px;
+                    border-radius:20px;
+                }
+            }
+        }
+    } 
     
 }
 

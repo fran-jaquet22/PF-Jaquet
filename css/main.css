@@ -51,19 +51,29 @@
 .main-principal3 {
   text-align: center;
   padding: 2rem 2rem 2rem 2rem; }
-  .main-principal3 section .img-sn {
+  .main-principal3 div .texto-nosotros {
     display: flex;
     justify-content: center;
-    align-items: center; }
-    .main-principal3 section .img-sn .img-sn1 {
-      width: 30vh;
-      height: 35vh;
-      border: 2px solid black; }
-  .main-principal3 section .texto-nosotros {
     margin-top: 2rem;
     padding-right: 2rem;
     padding-bottom: 3rem;
     font-size: 1.5rem; }
+  .main-principal3 .carrusel .carrusel-items {
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #555355;
+    padding: 20px;
+    gap: 1rem; }
+    .main-principal3 .carrusel .carrusel-items .carrusel-item img {
+      object-fit: cover;
+      box-shadow: 5px 5px 0px 0px;
+      color: grey; }
+    .main-principal3 .carrusel .carrusel-items .carrusel-item .imagenes-carrusel {
+      width: 150px;
+      border-radius: 20px; }
 
 /* mq de quienes somos para desktop */
 @media screen and (min-width: 1024px) {
